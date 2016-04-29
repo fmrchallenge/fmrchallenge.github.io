@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['operator_26',['operator&amp;',['../classPolytope.html#a3744c97d12f7f547ad36a535f2d926c0',1,'Polytope']]],
-  ['operator_5b_5d',['operator[]',['../classTrajectoryGenerator.html#a6e8b230d7277e998f1fa3810aced79b6',1,'TrajectoryGenerator']]]
+  ['map_5fpoint',['map_point',['../classRoadNetwork.html#acb75dbb27250f5c5f22b95fbbb804608',1,'RoadNetwork']]],
+  ['mapped_5fsegment',['mapped_segment',['../classRoadNetwork.html#abd2f597f0d931973649b1d7ccb59757f',1,'RoadNetwork']]]
 ];

@@ -98,9 +98,39 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a25d542263069e15f81a3326c70139957"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoadNetwork.html#a25d542263069e15f81a3326c70139957">get_mindist</a> (size_t idx, double x, double y) const </td></tr>
+<tr class="memdesc:a25d542263069e15f81a3326c70139957"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get minimum distance from point to center of road segment.  <a href="#a25d542263069e15f81a3326c70139957">More...</a><br /></td></tr>
+<tr class="separator:a25d542263069e15f81a3326c70139957"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a686d247f6ec76f66d6e6c5c39a956f50"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoadNetwork.html#a686d247f6ec76f66d6e6c5c39a956f50">get_nearest</a> (double x, double y) const </td></tr>
+<tr class="memdesc:a686d247f6ec76f66d6e6c5c39a956f50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get index of segment nearest to x,y point.  <a href="#a686d247f6ec76f66d6e6c5c39a956f50">More...</a><br /></td></tr>
+<tr class="separator:a686d247f6ec76f66d6e6c5c39a956f50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fe27e8f36abb9e93364e6ceb6592b9f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9fe27e8f36abb9e93364e6ceb6592b9f"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>get_segment_str</b> (size_t idx) const </td></tr>
+<tr class="separator:a9fe27e8f36abb9e93364e6ceb6592b9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb75dbb27250f5c5f22b95fbbb804608"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoadNetwork.html#acb75dbb27250f5c5f22b95fbbb804608">map_point</a> (const int x, const int y, double &amp;mapped_x, double &amp;mapped_y) const </td></tr>
+<tr class="memdesc:acb75dbb27250f5c5f22b95fbbb804608"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map point in local coordinates through transform and scaling.  <a href="#acb75dbb27250f5c5f22b95fbbb804608">More...</a><br /></td></tr>
+<tr class="separator:acb75dbb27250f5c5f22b95fbbb804608"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd2f597f0d931973649b1d7ccb59757f"><td class="memItemLeft" align="right" valign="top">const Eigen::Vector4d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoadNetwork.html#abd2f597f0d931973649b1d7ccb59757f">mapped_segment</a> (size_t idx, int lane=0) const </td></tr>
+<tr class="memdesc:abd2f597f0d931973649b1d7ccb59757f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get mapped road segment.  <a href="#abd2f597f0d931973649b1d7ccb59757f">More...</a><br /></td></tr>
+<tr class="separator:abd2f597f0d931973649b1d7ccb59757f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea6c124951b15bf03281645f844f2197"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aea6c124951b15bf03281645f844f2197"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>number_of_segments</b> () const </td></tr>
+<tr class="separator:aea6c124951b15bf03281645f844f2197"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a935e5a6ef72f6883907be7e9f77d2b23"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoadNetwork.html#a935e5a6ef72f6883907be7e9f77d2b23">RoadNetwork</a> (double length_, const Eigen::Vector3d &amp;transform_, int shape0, int shape1)</td></tr>
 <tr class="memdesc:a935e5a6ef72f6883907be7e9f77d2b23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create <a class="el" href="classRoadNetwork.html" title="Road network description. ">RoadNetwork</a> that is 4-connected grid of size (shape0, shape1).  <a href="#a935e5a6ef72f6883907be7e9f77d2b23">More...</a><br /></td></tr>
 <tr class="separator:a935e5a6ef72f6883907be7e9f77d2b23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d422df9c19318a88ad33c3e4a86cbb3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoadNetwork.html#a1d422df9c19318a88ad33c3e4a86cbb3">RoadNetwork</a> (std::istream &amp;rndjson)</td></tr>
+<tr class="memdesc:a1d422df9c19318a88ad33c3e4a86cbb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create <a class="el" href="classRoadNetwork.html" title="Road network description. ">RoadNetwork</a> from a description in a JSON container.  <a href="#a1d422df9c19318a88ad33c3e4a86cbb3">More...</a><br /></td></tr>
+<tr class="separator:a1d422df9c19318a88ad33c3e4a86cbb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a7987b1cfe306ae3749e1b6fddcb3da"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0a7987b1cfe306ae3749e1b6fddcb3da"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>RoadNetwork</b> (const std::string &amp;rndjson)</td></tr>
+<tr class="separator:a0a7987b1cfe306ae3749e1b6fddcb3da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c77a34ae8b0c88be458b252221e5d34"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9c77a34ae8b0c88be458b252221e5d34"></a>
+std::vector&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>segments_at_end</b> (size_t idx, bool reverse=false) const </td></tr>
+<tr class="separator:a9c77a34ae8b0c88be458b252221e5d34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a54b8e4c3451c132beb013d475854f1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1a54b8e4c3451c132beb013d475854f1"></a>
+std::vector&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>segments_at_start</b> (size_t idx) const </td></tr>
+<tr class="separator:a1a54b8e4c3451c132beb013d475854f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -152,6 +182,157 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a1d422df9c19318a88ad33c3e4a86cbb3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">RoadNetwork::RoadNetwork </td>
+          <td>(</td>
+          <td class="paramtype">std::istream &amp;&#160;</td>
+          <td class="paramname"><em>rndjson</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create <a class="el" href="classRoadNetwork.html" title="Road network description. ">RoadNetwork</a> from a description in a JSON container. </p>
+<p>segments is not yet implemented. Thus, until then, it is only possible to define a 4-connected grid using shape. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a25d542263069e15f81a3326c70139957"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double RoadNetwork::get_mindist </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>idx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get minimum distance from point to center of road segment. </p>
+
+</div>
+</div>
+<a class="anchor" id="a686d247f6ec76f66d6e6c5c39a956f50"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t RoadNetwork::get_nearest </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get index of segment nearest to x,y point. </p>
+
+</div>
+</div>
+<a class="anchor" id="acb75dbb27250f5c5f22b95fbbb804608"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RoadNetwork::map_point </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>mapped_x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>mapped_y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Map point in local coordinates through transform and scaling. </p>
+<p>This function does not check whether the given point is on some segment. </p>
+
+</div>
+</div>
+<a class="anchor" id="abd2f597f0d931973649b1d7ccb59757f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const Eigen::Vector4d RoadNetwork::mapped_segment </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>idx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>lane</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get mapped road segment. </p>
+
+</div>
+</div>
 <h2 class="groupheader">Friends And Related Function Documentation</h2>
 <a class="anchor" id="a060eaf2423ef16c171cdcefaa07aa28f"></a>
 <div class="memitem">
@@ -195,7 +376,7 @@ Friends</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Apr 13 2016 08:16:54 for fmrbenchmark by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Apr 29 2016 11:25:27 for fmrbenchmark by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>
