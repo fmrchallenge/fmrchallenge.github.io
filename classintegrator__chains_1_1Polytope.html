@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.8"/>
-<title>fmrbenchmark: Polytope Class Reference</title>
+<title>fmrbenchmark: integrator_chains::Polytope Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -23,7 +23,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">fmrbenchmark
-   &#160;<span id="projectnumber">0.0.2</span>
+   &#160;<span id="projectnumber">0.0.3</span>
    </div>
   </td>
  </tr>
@@ -80,70 +80,74 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </iframe>
 </div>
 
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><b>integrator_chains</b></li><li class="navelem"><a class="el" href="classintegrator__chains_1_1Polytope.html">Polytope</a></li>  </ul>
+</div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#friends">Friends</a> &#124;
-<a href="classPolytope-members.html">List of all members</a>  </div>
+<a href="classintegrator__chains_1_1Polytope-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Polytope Class Reference<div class="ingroups"><a class="el" href="group__integrator__chains.html">Problem domain: Scaling chains of integrators</a></div></div>  </div>
+<div class="title">integrator_chains::Polytope Class Reference<div class="ingroups"><a class="el" href="group__integrator__chains.html">Problem domain: Scaling chains of integrators</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p>Basic half-space representation of polytopes.  
- <a href="classPolytope.html#details">More...</a></p>
+ <a href="classintegrator__chains_1_1Polytope.html#details">More...</a></p>
 
 <p><code>#include &lt;polytope.hpp&gt;</code></p>
 <div class="dynheader">
-Inheritance diagram for Polytope:</div>
+Inheritance diagram for integrator_chains::Polytope:</div>
 <div class="dyncontent">
-<div class="center"><img src="classPolytope__inherit__graph.png" border="0" usemap="#Polytope_inherit__map" alt="Inheritance graph"/></div>
-<map name="Polytope_inherit__map" id="Polytope_inherit__map">
-<area shape="rect" id="node2" href="classLabeledPolytope.html" title="Extension of Polytope to have label (string). " alt="" coords="5,80,124,107"/></map>
+<div class="center"><img src="classintegrator__chains_1_1Polytope__inherit__graph.png" border="0" usemap="#integrator__chains_1_1Polytope_inherit__map" alt="Inheritance graph"/></div>
+<map name="integrator__chains_1_1Polytope_inherit__map" id="integrator__chains_1_1Polytope_inherit__map">
+<area shape="rect" id="node2" href="classintegrator__chains_1_1LabeledPolytope.html" title="Extension of Polytope to have label (string). " alt="" coords="5,95,135,136"/></map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad53dcc6f2296c54bd1526d8068fe0886"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPolytope.html#ad53dcc6f2296c54bd1526d8068fe0886">dumpJSONcore</a> (std::ostream &amp;out) const </td></tr>
-<tr class="memdesc:ad53dcc6f2296c54bd1526d8068fe0886"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output this polytope in JSON excluding opening { and closing }.  <a href="#ad53dcc6f2296c54bd1526d8068fe0886">More...</a><br /></td></tr>
-<tr class="separator:ad53dcc6f2296c54bd1526d8068fe0886"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53c0bfcff5252732f8e739814cb699de"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPolytope.html#a53c0bfcff5252732f8e739814cb699de">is_consistent</a> () const </td></tr>
-<tr class="memdesc:a53c0bfcff5252732f8e739814cb699de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check that defining matrices have consistent dimensions.  <a href="#a53c0bfcff5252732f8e739814cb699de">More...</a><br /></td></tr>
-<tr class="separator:a53c0bfcff5252732f8e739814cb699de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1b65e0d92fcd7fdcf9056c48ab3fa1c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPolytope.html#af1b65e0d92fcd7fdcf9056c48ab3fa1c">is_in</a> (Eigen::VectorXd X) const </td></tr>
-<tr class="memdesc:af1b65e0d92fcd7fdcf9056c48ab3fa1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is X contained in this polytope?  <a href="#af1b65e0d92fcd7fdcf9056c48ab3fa1c">More...</a><br /></td></tr>
-<tr class="separator:af1b65e0d92fcd7fdcf9056c48ab3fa1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3744c97d12f7f547ad36a535f2d926c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPolytope.html">Polytope</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPolytope.html#a3744c97d12f7f547ad36a535f2d926c0">operator&amp;</a> (const <a class="el" href="classPolytope.html">Polytope</a> &amp;P2)</td></tr>
-<tr class="memdesc:a3744c97d12f7f547ad36a535f2d926c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Intersect two polytopes that are defined in the same dimension space.  <a href="#a3744c97d12f7f547ad36a535f2d926c0">More...</a><br /></td></tr>
-<tr class="separator:a3744c97d12f7f547ad36a535f2d926c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9e5efee2cbe4f67dba55bb999c215a1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab9e5efee2cbe4f67dba55bb999c215a1"></a>
+<tr class="memitem:a6f25c99113e91ce9d952a295761febe2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classintegrator__chains_1_1Polytope.html#a6f25c99113e91ce9d952a295761febe2">dumpJSONcore</a> (std::ostream &amp;out) const </td></tr>
+<tr class="memdesc:a6f25c99113e91ce9d952a295761febe2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output this polytope in JSON excluding opening { and closing }.  <a href="#a6f25c99113e91ce9d952a295761febe2">More...</a><br /></td></tr>
+<tr class="separator:a6f25c99113e91ce9d952a295761febe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72393712c7b3ff42721172a359fdd1c2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classintegrator__chains_1_1Polytope.html#a72393712c7b3ff42721172a359fdd1c2">is_consistent</a> () const </td></tr>
+<tr class="memdesc:a72393712c7b3ff42721172a359fdd1c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check that defining matrices have consistent dimensions.  <a href="#a72393712c7b3ff42721172a359fdd1c2">More...</a><br /></td></tr>
+<tr class="separator:a72393712c7b3ff42721172a359fdd1c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa44d3efef5ff255a08d4c9c7b5fced19"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classintegrator__chains_1_1Polytope.html#aa44d3efef5ff255a08d4c9c7b5fced19">is_in</a> (Eigen::VectorXd X) const </td></tr>
+<tr class="memdesc:aa44d3efef5ff255a08d4c9c7b5fced19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is X contained in this polytope?  <a href="#aa44d3efef5ff255a08d4c9c7b5fced19">More...</a><br /></td></tr>
+<tr class="separator:aa44d3efef5ff255a08d4c9c7b5fced19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5d6b2df09e0e097a093fda63a2a6958"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classintegrator__chains_1_1Polytope.html">Polytope</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classintegrator__chains_1_1Polytope.html#ac5d6b2df09e0e097a093fda63a2a6958">operator&amp;</a> (const <a class="el" href="classintegrator__chains_1_1Polytope.html">Polytope</a> &amp;P2)</td></tr>
+<tr class="memdesc:ac5d6b2df09e0e097a093fda63a2a6958"><td class="mdescLeft">&#160;</td><td class="mdescRight">Intersect two polytopes that are defined in the same dimension space.  <a href="#ac5d6b2df09e0e097a093fda63a2a6958">More...</a><br /></td></tr>
+<tr class="separator:ac5d6b2df09e0e097a093fda63a2a6958"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d7a2bb13753858c58aa9366f10d26da"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7d7a2bb13753858c58aa9366f10d26da"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Polytope</b> (Eigen::MatrixXd incoming_H, Eigen::VectorXd incoming_K)</td></tr>
-<tr class="separator:ab9e5efee2cbe4f67dba55bb999c215a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac030c9dcb61972deaf132811c5e38a71"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac030c9dcb61972deaf132811c5e38a71"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>Polytope</b> (const <a class="el" href="classPolytope.html">Polytope</a> &amp;other)</td></tr>
-<tr class="separator:ac030c9dcb61972deaf132811c5e38a71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a7d7a2bb13753858c58aa9366f10d26da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a170751ca40e74d1c58e38090d9bf9cd3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a170751ca40e74d1c58e38090d9bf9cd3"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Polytope</b> (const <a class="el" href="classintegrator__chains_1_1Polytope.html">Polytope</a> &amp;other)</td></tr>
+<tr class="separator:a170751ca40e74d1c58e38090d9bf9cd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a93a23a65805e7af05b902c15cb34dcbd"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classPolytope.html">Polytope</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPolytope.html#a93a23a65805e7af05b902c15cb34dcbd">box</a> (const Eigen::VectorXd &amp;bounds)</td></tr>
-<tr class="memdesc:a93a23a65805e7af05b902c15cb34dcbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct <a class="el" href="classPolytope.html" title="Basic half-space representation of polytopes. ">Polytope</a> that is an axis-aligned rectangle.  <a href="#a93a23a65805e7af05b902c15cb34dcbd">More...</a><br /></td></tr>
-<tr class="separator:a93a23a65805e7af05b902c15cb34dcbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21cb27fb6f692f12f7f7db50185a42fe"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classPolytope.html">Polytope</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPolytope.html#a21cb27fb6f692f12f7f7db50185a42fe">randomH</a> (int n)</td></tr>
-<tr class="memdesc:a21cb27fb6f692f12f7f7db50185a42fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create random <a class="el" href="classPolytope.html" title="Basic half-space representation of polytopes. ">Polytope</a> in R^n using Eigen::MatrixXd::Random().  <a href="#a21cb27fb6f692f12f7f7db50185a42fe">More...</a><br /></td></tr>
-<tr class="separator:a21cb27fb6f692f12f7f7db50185a42fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abff875e8e5dd02c149b003fe24b34664"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classintegrator__chains_1_1Polytope.html">Polytope</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classintegrator__chains_1_1Polytope.html#abff875e8e5dd02c149b003fe24b34664">box</a> (const Eigen::VectorXd &amp;bounds)</td></tr>
+<tr class="memdesc:abff875e8e5dd02c149b003fe24b34664"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct <a class="el" href="classintegrator__chains_1_1Polytope.html" title="Basic half-space representation of polytopes. ">Polytope</a> that is an axis-aligned rectangle.  <a href="#abff875e8e5dd02c149b003fe24b34664">More...</a><br /></td></tr>
+<tr class="separator:abff875e8e5dd02c149b003fe24b34664"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38b4bbe0d31c2da547e4b3a812c72287"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classintegrator__chains_1_1Polytope.html">Polytope</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classintegrator__chains_1_1Polytope.html#a38b4bbe0d31c2da547e4b3a812c72287">randomH</a> (int n)</td></tr>
+<tr class="memdesc:a38b4bbe0d31c2da547e4b3a812c72287"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create random <a class="el" href="classintegrator__chains_1_1Polytope.html" title="Basic half-space representation of polytopes. ">Polytope</a> in R^n using Eigen::MatrixXd::Random().  <a href="#a38b4bbe0d31c2da547e4b3a812c72287">More...</a><br /></td></tr>
+<tr class="separator:a38b4bbe0d31c2da547e4b3a812c72287"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
-<tr class="memitem:a8b44571c0cf7f2d1fe98654d2f111dde"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPolytope.html#a8b44571c0cf7f2d1fe98654d2f111dde">operator&lt;&lt;</a> (std::ostream &amp;out, const <a class="el" href="classPolytope.html">Polytope</a> &amp;P)</td></tr>
+<tr class="memitem:a8b44571c0cf7f2d1fe98654d2f111dde"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classintegrator__chains_1_1Polytope.html#a8b44571c0cf7f2d1fe98654d2f111dde">operator&lt;&lt;</a> (std::ostream &amp;out, const <a class="el" href="classintegrator__chains_1_1Polytope.html">Polytope</a> &amp;P)</td></tr>
 <tr class="memdesc:a8b44571c0cf7f2d1fe98654d2f111dde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output this polytope in JSON to given stream.  <a href="#a8b44571c0cf7f2d1fe98654d2f111dde">More...</a><br /></td></tr>
 <tr class="separator:a8b44571c0cf7f2d1fe98654d2f111dde"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Basic half-space representation of polytopes. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a93a23a65805e7af05b902c15cb34dcbd"></a>
+<a class="anchor" id="abff875e8e5dd02c149b003fe24b34664"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -151,7 +155,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPolytope.html">Polytope</a> * Polytope::box </td>
+          <td class="memname"><a class="el" href="classintegrator__chains_1_1Polytope.html">Polytope</a> * integrator_chains::Polytope::box </td>
           <td>(</td>
           <td class="paramtype">const Eigen::VectorXd &amp;&#160;</td>
           <td class="paramname"><em>bounds</em></td><td>)</td>
@@ -165,7 +169,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Construct <a class="el" href="classPolytope.html" title="Basic half-space representation of polytopes. ">Polytope</a> that is an axis-aligned rectangle. </p>
+<p>Construct <a class="el" href="classintegrator__chains_1_1Polytope.html" title="Basic half-space representation of polytopes. ">Polytope</a> that is an axis-aligned rectangle. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">bounds</td><td>an array of the form <div class="fragment"><div class="line">[x1_min, x1_max, x2_min, x2_max, ..., xn_min, xn_max],</div>
@@ -176,16 +180,16 @@ Friends</h2></td></tr>
 <p>E.g., a unit square in R^2 can be created using </p><div class="fragment"><div class="line">Eigen::Vector4d bounds;</div>
 <div class="line">bounds &lt;&lt; 0, 1,</div>
 <div class="line">          0, 1;</div>
-<div class="line"><a class="code" href="classPolytope.html">Polytope</a> *square = <a class="code" href="classPolytope.html#a93a23a65805e7af05b902c15cb34dcbd">Polytope::box</a>( bounds );</div>
+<div class="line">Polytope *square = <a class="code" href="classintegrator__chains_1_1Polytope.html#abff875e8e5dd02c149b003fe24b34664">Polytope::box</a>( bounds );</div>
 </div><!-- fragment --> 
 </div>
 </div>
-<a class="anchor" id="ad53dcc6f2296c54bd1526d8068fe0886"></a>
+<a class="anchor" id="a6f25c99113e91ce9d952a295761febe2"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Polytope::dumpJSONcore </td>
+          <td class="memname">void integrator_chains::Polytope::dumpJSONcore </td>
           <td>(</td>
           <td class="paramtype">std::ostream &amp;&#160;</td>
           <td class="paramname"><em>out</em></td><td>)</td>
@@ -195,16 +199,16 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Output this polytope in JSON excluding opening { and closing }. </p>
-<p>This method facilitates inheritance from <a class="el" href="classPolytope.html" title="Basic half-space representation of polytopes. ">Polytope</a> without crowding the JSON representations of other classes. </p>
+<p>This method facilitates inheritance from <a class="el" href="classintegrator__chains_1_1Polytope.html" title="Basic half-space representation of polytopes. ">Polytope</a> without crowding the JSON representations of other classes. </p>
 
 </div>
 </div>
-<a class="anchor" id="a53c0bfcff5252732f8e739814cb699de"></a>
+<a class="anchor" id="a72393712c7b3ff42721172a359fdd1c2"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool Polytope::is_consistent </td>
+          <td class="memname">bool integrator_chains::Polytope::is_consistent </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -213,16 +217,16 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Check that defining matrices have consistent dimensions. </p>
-<p>The "defining matrices" are those involved in the inequality providing the half-space representation, i.e., H and K in {x | Hx &lt;= K}. N.B., this check does not occur during instantiation of <a class="el" href="classPolytope.html" title="Basic half-space representation of polytopes. ">Polytope</a>. </p>
+<p>The "defining matrices" are those involved in the inequality providing the half-space representation, i.e., H and K in {x | Hx &lt;= K}. N.B., this check does not occur during instantiation of <a class="el" href="classintegrator__chains_1_1Polytope.html" title="Basic half-space representation of polytopes. ">Polytope</a>. </p>
 
 </div>
 </div>
-<a class="anchor" id="af1b65e0d92fcd7fdcf9056c48ab3fa1c"></a>
+<a class="anchor" id="aa44d3efef5ff255a08d4c9c7b5fced19"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool Polytope::is_in </td>
+          <td class="memname">bool integrator_chains::Polytope::is_in </td>
           <td>(</td>
           <td class="paramtype">Eigen::VectorXd&#160;</td>
           <td class="paramname"><em>X</em></td><td>)</td>
@@ -236,14 +240,14 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a3744c97d12f7f547ad36a535f2d926c0"></a>
+<a class="anchor" id="ac5d6b2df09e0e097a093fda63a2a6958"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPolytope.html">Polytope</a> Polytope::operator&amp; </td>
+          <td class="memname"><a class="el" href="classintegrator__chains_1_1Polytope.html">Polytope</a> integrator_chains::Polytope::operator&amp; </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPolytope.html">Polytope</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classintegrator__chains_1_1Polytope.html">Polytope</a> &amp;&#160;</td>
           <td class="paramname"><em>P2</em></td><td>)</td>
           <td></td>
         </tr>
@@ -254,7 +258,7 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a21cb27fb6f692f12f7f7db50185a42fe"></a>
+<a class="anchor" id="a38b4bbe0d31c2da547e4b3a812c72287"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -262,7 +266,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPolytope.html">Polytope</a> * Polytope::randomH </td>
+          <td class="memname"><a class="el" href="classintegrator__chains_1_1Polytope.html">Polytope</a> * integrator_chains::Polytope::randomH </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>n</em></td><td>)</td>
@@ -276,14 +280,14 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Create random <a class="el" href="classPolytope.html" title="Basic half-space representation of polytopes. ">Polytope</a> in R^n using Eigen::MatrixXd::Random(). </p>
+<p>Create random <a class="el" href="classintegrator__chains_1_1Polytope.html" title="Basic half-space representation of polytopes. ">Polytope</a> in R^n using Eigen::MatrixXd::Random(). </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">n</td><td>dimension of the containing space.</td></tr>
   </table>
   </dd>
 </dl>
-<p>Random matrices as provided by Eigen::MatrixXd::Random() are used to instantiate <a class="el" href="classPolytope.html" title="Basic half-space representation of polytopes. ">Polytope</a> in half-space representation. The matrices have <code>n+1</code> rows, corresponding to <code>n+1</code> inequalities. </p>
+<p>Random matrices as provided by Eigen::MatrixXd::Random() are used to instantiate <a class="el" href="classintegrator__chains_1_1Polytope.html" title="Basic half-space representation of polytopes. ">Polytope</a> in half-space representation. The matrices have <code>n+1</code> rows, corresponding to <code>n+1</code> inequalities. </p>
 
 </div>
 </div>
@@ -304,7 +308,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classPolytope.html">Polytope</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classintegrator__chains_1_1Polytope.html">Polytope</a> &amp;&#160;</td>
           <td class="paramname"><em>P</em>&#160;</td>
         </tr>
         <tr>
@@ -330,7 +334,7 @@ Friends</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Apr 29 2016 11:27:19 for fmrbenchmark by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon May 16 2016 03:04:30 for fmrbenchmark by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

@@ -1,6 +1,6 @@
 var searchData=
 [
   ['dmtranscriber',['DMTranscriber',['../classDMTranscriber.html#a81239a7d0c4a8520c2fd4dc24b77417e',1,'DMTranscriber']]],
-  ['dumpjson',['dumpJSON',['../classProblem.html#a84641d3f628578904e9533877e381f5a',1,'Problem']]],
-  ['dumpjsoncore',['dumpJSONcore',['../classPolytope.html#ad53dcc6f2296c54bd1526d8068fe0886',1,'Polytope']]]
+  ['dumpjson',['dumpJSON',['../classintegrator__chains_1_1Problem.html#add38815451f459102941bb1d86495606',1,'integrator_chains::Problem::dumpJSON()'],['../classdubins__traffic_1_1Problem.html#a4b2b576e3dd05513d9c71971e38050b7',1,'dubins_traffic::Problem::dumpJSON()']]],
+  ['dumpjsoncore',['dumpJSONcore',['../classintegrator__chains_1_1Polytope.html#a6f25c99113e91ce9d952a295761febe2',1,'integrator_chains::Polytope']]]
 ];

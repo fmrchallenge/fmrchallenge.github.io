@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['box',['box',['../classPolytope.html#a93a23a65805e7af05b902c15cb34dcbd',1,'Polytope::box()'],['../classLabeledPolytope.html#a4abb227cb98e6a633e34cb847940de06',1,'LabeledPolytope::box()']]]
+  ['box',['box',['../classintegrator__chains_1_1Polytope.html#abff875e8e5dd02c149b003fe24b34664',1,'integrator_chains::Polytope::box()'],['../classintegrator__chains_1_1LabeledPolytope.html#a5c53bd0005584423fdae8ba8954744ae',1,'integrator_chains::LabeledPolytope::box()']]]
 ];

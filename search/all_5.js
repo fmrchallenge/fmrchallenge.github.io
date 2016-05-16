@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['map_5fpoint',['map_point',['../classRoadNetwork.html#acb75dbb27250f5c5f22b95fbbb804608',1,'RoadNetwork']]],
-  ['mapped_5fsegment',['mapped_segment',['../classRoadNetwork.html#abd2f597f0d931973649b1d7ccb59757f',1,'RoadNetwork']]]
+  ['map_5fpoint',['map_point',['../classdubins__traffic_1_1RoadNetwork.html#aee0952cb0dcef58f7c07708ed58ab1e4',1,'dubins_traffic::RoadNetwork']]],
+  ['mapped_5fsegment',['mapped_segment',['../classdubins__traffic_1_1RoadNetwork.html#af38733ec16028ce60a26c5ade8d251f6',1,'dubins_traffic::RoadNetwork']]]
 ];

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.8"/>
-<title>fmrbenchmark: Member List</title>
+<title>fmrbenchmark: integrator_chains::Labeler Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -23,7 +23,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">fmrbenchmark
-   &#160;<span id="projectnumber">0.0.2</span>
+   &#160;<span id="projectnumber">0.0.3</span>
    </div>
   </td>
  </tr>
@@ -80,31 +80,42 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </iframe>
 </div>
 
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><b>integrator_chains</b></li><li class="navelem"><a class="el" href="classintegrator__chains_1_1Labeler.html">Labeler</a></li>  </ul>
+</div>
 </div><!-- top -->
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classintegrator__chains_1_1Labeler-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">RoadNetwork Member List</div>  </div>
+<div class="title">integrator_chains::Labeler Class Reference<div class="ingroups"><a class="el" href="group__integrator__chains.html">Problem domain: Scaling chains of integrators</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>This is the complete list of members for <a class="el" href="classRoadNetwork.html">RoadNetwork</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="classRoadNetwork.html#a25d542263069e15f81a3326c70139957">get_mindist</a>(size_t idx, double x, double y) const </td><td class="entry"><a class="el" href="classRoadNetwork.html">RoadNetwork</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classRoadNetwork.html#a686d247f6ec76f66d6e6c5c39a956f50">get_nearest</a>(double x, double y) const </td><td class="entry"><a class="el" href="classRoadNetwork.html">RoadNetwork</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>get_segment_str</b>(size_t idx) const  (defined in <a class="el" href="classRoadNetwork.html">RoadNetwork</a>)</td><td class="entry"><a class="el" href="classRoadNetwork.html">RoadNetwork</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classRoadNetwork.html#acb75dbb27250f5c5f22b95fbbb804608">map_point</a>(const int x, const int y, double &amp;mapped_x, double &amp;mapped_y) const </td><td class="entry"><a class="el" href="classRoadNetwork.html">RoadNetwork</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classRoadNetwork.html#abd2f597f0d931973649b1d7ccb59757f">mapped_segment</a>(size_t idx, int lane=0) const </td><td class="entry"><a class="el" href="classRoadNetwork.html">RoadNetwork</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>number_of_segments</b>() const  (defined in <a class="el" href="classRoadNetwork.html">RoadNetwork</a>)</td><td class="entry"><a class="el" href="classRoadNetwork.html">RoadNetwork</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classRoadNetwork.html#a060eaf2423ef16c171cdcefaa07aa28f">operator&lt;&lt;</a>(std::ostream &amp;out, const RoadNetwork &amp;rd)</td><td class="entry"><a class="el" href="classRoadNetwork.html">RoadNetwork</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classRoadNetwork.html#a935e5a6ef72f6883907be7e9f77d2b23">RoadNetwork</a>(double length_, const Eigen::Vector3d &amp;transform_, int shape0, int shape1)</td><td class="entry"><a class="el" href="classRoadNetwork.html">RoadNetwork</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classRoadNetwork.html#a1d422df9c19318a88ad33c3e4a86cbb3">RoadNetwork</a>(std::istream &amp;rndjson)</td><td class="entry"><a class="el" href="classRoadNetwork.html">RoadNetwork</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>RoadNetwork</b>(const std::string &amp;rndjson) (defined in <a class="el" href="classRoadNetwork.html">RoadNetwork</a>)</td><td class="entry"><a class="el" href="classRoadNetwork.html">RoadNetwork</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>segments_at_end</b>(size_t idx, bool reverse=false) const  (defined in <a class="el" href="classRoadNetwork.html">RoadNetwork</a>)</td><td class="entry"><a class="el" href="classRoadNetwork.html">RoadNetwork</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>segments_at_start</b>(size_t idx) const  (defined in <a class="el" href="classRoadNetwork.html">RoadNetwork</a>)</td><td class="entry"><a class="el" href="classRoadNetwork.html">RoadNetwork</a></td><td class="entry"></td></tr>
-</table></div><!-- contents -->
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a52f8d5e8d77f8b1f5907fd1226d14e63"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a52f8d5e8d77f8b1f5907fd1226d14e63"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr>
+<tr class="separator:a52f8d5e8d77f8b1f5907fd1226d14e63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afef973759900d8c46199a65a65d63c1b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afef973759900d8c46199a65a65d63c1b"></a>
+std::list&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>get_label</b> (const Eigen::VectorXd &amp;X)</td></tr>
+<tr class="separator:afef973759900d8c46199a65a65d63c1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a028460a077817f89d156847c4b7df8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1a028460a077817f89d156847c4b7df8"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>importProblem</b> (const <a class="el" href="classintegrator__chains_1_1Problem.html">Problem</a> &amp;probinstance, bool check_collisions=true)</td></tr>
+<tr class="separator:a1a028460a077817f89d156847c4b7df8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ee8b19f59f11fdf99391e8e479e219b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7ee8b19f59f11fdf99391e8e479e219b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Labeler</b> (const <a class="el" href="classintegrator__chains_1_1Problem.html">Problem</a> &amp;probinstance)</td></tr>
+<tr class="separator:a7ee8b19f59f11fdf99391e8e479e219b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>integrator_chains/dynamaestro/include/problem.hpp</li>
+</ul>
+</div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Apr 29 2016 11:27:19 for fmrbenchmark by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon May 16 2016 03:04:30 for fmrbenchmark by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>
